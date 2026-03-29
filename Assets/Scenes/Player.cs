@@ -11,10 +11,12 @@ public class Player : MonoBehaviour
 
     void Shoot()
     {
-        VisualEffect vfxInstance = Instantiate(muzzleVFX, muzzlePoint.position, muzzlePoint.rotation);
+        if (muzzlePoint.transform.childCount >= 1) return;
+
+        VisualEffect vfxInstance = Instantiate(muzzleVFX, muzzlePoint.position, muzzlePoint.rotation, muzzlePoint);
         vfxInstance.Play();
 
-        Destroy(vfxInstance.gameObject, 1f);
+        Destroy(vfxInstance.gameObject, 0.75f);
     }
 
     public void OnShoot(InputAction.CallbackContext context)
@@ -35,7 +37,7 @@ public class Player : MonoBehaviour
         }
         else if (context.canceled)
         {
-            playerAnimator.SetBool("Aim", false);
+            playerAnimator.SetBool("Aim", false); 
         }
     }
 }
