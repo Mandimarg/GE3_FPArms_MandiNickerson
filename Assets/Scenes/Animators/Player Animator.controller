@@ -117,7 +117,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Human_FPS|Human_FPSSetup
-  m_Speed: 1
+  m_Speed: 1.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 5210912574384757424}
@@ -131,7 +131,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 4931990621747162651, guid: d50863f7d44c35243a68170b837b25e2, type: 3}
+  m_Motion: {fileID: 4931990621747162651, guid: 7b1e4d538fefde842866aaf77d3313c7, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

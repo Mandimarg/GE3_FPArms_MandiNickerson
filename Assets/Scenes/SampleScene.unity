@@ -169,6 +169,7 @@ MonoBehaviour:
   muzzlePoint: {fileID: 1915428510}
   muzzleVFX: {fileID: 7942728519365065570, guid: 1779941a74996d6489b500262b29643f, type: 3}
   playerAnimator: {fileID: 349635843}
+  gunAnimator: {fileID: 1838807741}
 --- !u!114 &227667613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -909,6 +910,11 @@ PrefabInstance:
 --- !u!4 &1838807740 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3648497341649671432, guid: 90c384ed51b4db149ba6f1ae2e03da16, type: 3}
+  m_PrefabInstance: {fileID: 1838807739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1838807741 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7224404736915640178, guid: 90c384ed51b4db149ba6f1ae2e03da16, type: 3}
   m_PrefabInstance: {fileID: 1838807739}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1915428509
